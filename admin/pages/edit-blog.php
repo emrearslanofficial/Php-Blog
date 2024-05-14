@@ -126,8 +126,8 @@ if(isset($_FILES['upload']['name'])){
         .create( document.querySelector( '#editor' ),{
         
             cloudServices: {
-            tokenUrl: 'https://109494.cke-cs.com/token/dev/ABSF900WfyBVvOKm78IMRXK3NEuQrgCmMP5M?limit=10',
-            uploadUrl: 'https://109494.cke-cs.com/easyimage/upload/'
+            tokenUrl: '',
+            uploadUrl: ''
 		}
         } ).then(data =>{
             console.log(data);

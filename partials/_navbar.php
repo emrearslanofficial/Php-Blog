@@ -207,7 +207,7 @@ profileModalButton.addEventListener("click", () => {
 
 
 <script>
-    const api_key = "e769bc1e9245bbae1220c1be";
+    const api_key = "";
     const url = "https://v6.exchangerate-api.com/v6/" + api_key;
 
     function getExchange(url){
@@ -270,7 +270,7 @@ profileModalButton.addEventListener("click", () => {
 
     //BTC
 
-    const btcUrl = "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=try";
+    const btcUrl = "";
     fetch(btcUrl)
         .then(res=>res.json())
         .then(data=>{   
@@ -306,5 +306,5 @@ profileModalButton.addEventListener("click", () => {
 <script src="assets/app.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
