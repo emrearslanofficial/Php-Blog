@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F7F8FB;
+}
+.read-more{
+    margin-left: 300px;
+    cursor: pointer;
+}
+.resim{
+    height: 150px;
+    max-width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.custom-btn{
+    border: 1px solid rgb(86, 35, 158);
+    color:rgb(86, 35, 158);
+}
+.custom-btn:hover{
+    background-color: rgb(86, 35, 158);
+    color: white;
+}
+.card{
+    background-color: #FFFFFF;
+}
